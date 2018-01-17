@@ -1,5 +1,5 @@
-public class Exam
-{   public static void main(String[] args)
+public class Exam {
+    public static void main(String[] args)
 //    System.out.println(""); >>java에서 글자를 출력하는 명령어
 //   {
 //       System.out.println("Programming! It's fun.");
@@ -37,14 +37,44 @@ public class Exam
 //       System.out.println("avg"+ 90);
 //       System.out.println("          Seoul")
 //   }
-    {int num1;
-    num1=10;
-    int num2=20;
-    int num3=num1+num2;
-    System.out.println(num1+"+"+num2+"="+num3);
+//    {int num1;
+//    num1=10;
+//    int num2=20;
+//    int num3=num1+num2;
+//    System.out.println(num1+"+"+num2+"="+num3);
+//
+//     char ch1;
+//     ch1='a';
+//     System.out.println('a');}
+//
+//}
+//    {
+//        int num = 10;
+//
+//        if (num > 0) {
+//            System.out.println("num은 0보다 크다");
+//        }
+//
+//        if ((num % 2) == 0) {
+//            System.out.println("num은 짝수");
+//        } else {
+//            System.out.println("num은 홀수");
+//        }
+//    }
+//}
 
-     char ch1;
-     ch1='a';
-     System.out.println('a');}
-
+    {
+        int score = 45;
+        if (score >= 90) {
+            System.out.println("성적은 수 입니다.");
+        } else if (score >= 80) {
+            System.out.println("성적은 우 입니다.");
+        } else if (score >= 70) {
+            System.out.println("성적은 미 입니다.");
+        } else if (score >= 60) {
+            System.out.println("성적은 양 입니다.");
+        } else {
+            System.out.println("성적은 가 입니다.");
+        }
+    }
 }
