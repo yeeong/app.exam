@@ -198,19 +198,51 @@ public class Exam {
 //    }
 //}
 
-    {
-    int num = 0;
-    int num2 = 0;
-//    do while을 활용한 반복 출력
-    do {
-        System.out.println("java" + num);
-        num++;
-    } while(num<5);
+//    {
+//    int num = 0;
+//    int num2 = 0;
+////    do while을 활용한 반복 출력
+//    do {
+//        System.out.println("java" + num);
+//        num++;
+//    } while(num<5);
+//
+////    while을 활용한 반복 출력
+//    while(num2<5) {
+//        System.out.println("java"+ num2);
+//        num2++;
+//    }
+////    for를 활용한 반복 출력
+//    for(int num3 = 0; num3<5; num3++) {
+//        System.out.println("java" + num3);
+//    }
+//    }
+//}
 
-//    while을 활용한 반복 출력
-    while(num2<5) {
-        System.out.println("java"+ num2);
-        num2++;
+//    {
+//    String str;
+//
+//    Scanner Keyboard = new Scanner(System.in);
+//    str = Keyboard.nextLine();
+////    System.out.println(str);
+//    for(int num=0; num<20; num++) {
+//        System.out.println(str);
+//    }
+//    }
+//}
+
+//    {
+//
+//    for(int num = 10; num<=20; num++)
+//        System.out.println(num);
+//    }
+//}
+
+    {
+
+
+    for(int num=10; num<=100; num++) {
+        System.out.println(num + 10);
     }
     }
 }
