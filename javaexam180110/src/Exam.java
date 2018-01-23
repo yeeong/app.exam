@@ -210,7 +210,7 @@ public class Exam {
 //    while을 활용한 반복 출력
     while(num2<5) {
         System.out.println("java"+ num2);
-        num++;
+        num2++;
     }
     }
 }
