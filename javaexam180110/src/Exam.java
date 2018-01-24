@@ -238,11 +238,22 @@ public class Exam {
 //    }
 //}
 
-    {
+//    {
+//        int a;
+//        Scanner Kb = new Scanner(System.in);
+//        a=Kb.nextInt();
+//        int num=0;
+//        while(num<10)  {
+//            num++;
+//            System.out.println(num*a + " ");
+//    }
+//    }
+//}
 
-
-    for(int num=10; num<=100; num++) {
-        System.out.println(num + 10);
-    }
-    }
-}
+    {  int a;
+        Scanner Kb = new Scanner(System.in);
+        a=Kb.nextInt();
+        for(int num2=1; num2<=10; num2++) {
+            System.out.println(num2*a+"");
+        }
+            }}
